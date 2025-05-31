@@ -12,7 +12,7 @@ export default defineGkdApp({
         {
           fastQuery: true,
           excludeActivityIds: '.main.MainActivity',
-          matches: '@[vid="f6t"][desc.includes("未点赞")]',
+          matches: '@[vid="f6t"][desc^="未点赞"]',
           actionDelay: 300,
           snapshotUrls: [], // 这里可以添加相关截图的URL
         },
@@ -26,7 +26,7 @@ export default defineGkdApp({
         {
           fastQuery: true,
           activityIds: '.main.MainActivity',
-          matches: '@[vid="d2v"][desc.includes("未选中")]',
+          matches: '@[vid="d2v"][desc^="未选中"]',
           actionDelay: 500,
           snapshotUrls: [],
         },
