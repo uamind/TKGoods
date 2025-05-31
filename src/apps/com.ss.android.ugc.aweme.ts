@@ -12,10 +12,8 @@ export default defineGkdApp({
         {
           fastQuery: true,
           excludeActivityIds: '.main.MainActivity',
-          matches: '@ImageView < [vid="f5t"]',
+          matches: '@[vid="f6t"][desc.includes("未点赞")]',
           actionDelay: 300,
-          actionMaximum: 1,
-          // 可以添加快照URL用于验证
           snapshotUrls: [], // 这里可以添加相关截图的URL
         },
       ],
@@ -28,9 +26,8 @@ export default defineGkdApp({
         {
           fastQuery: true,
           activityIds: '.main.MainActivity',
-          matches: '[vid="d2v"]',
+          matches: '@[vid="d2v"][desc.includes("未选中")]',
           actionDelay: 500,
-          actionMaximum: 1,
           snapshotUrls: [],
         },
       ],
