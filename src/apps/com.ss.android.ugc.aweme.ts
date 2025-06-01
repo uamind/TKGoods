@@ -18,7 +18,7 @@ export default defineGkdApp({
           position: {
             left: 'width*0.1989',
             top: 'width*0.293',
-          }
+          },
         },
       ],
     },
