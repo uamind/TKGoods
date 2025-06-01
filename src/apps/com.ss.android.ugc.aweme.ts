@@ -15,7 +15,6 @@ export default defineGkdApp({
           matches: '[vid="f6t"][desc^="未点赞"]',
           actionDelay: 500,
           snapshotUrls: [],
-
         },
       ],
     },
