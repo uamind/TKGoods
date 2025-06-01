@@ -21,7 +21,7 @@ export default defineGkdApp({
     //     },
     //   ],
     // },
-        {
+    {
       key: 0,
       name: '点赞',
       desc: '自动点赞操作',
