@@ -12,13 +12,10 @@ export default defineGkdApp({
         {
           fastQuery: true,
           activityIds: '.main.MainActivity',
-          matches: '[vid="wqh"] > [vid="d3d"] > [vid="d4a"][desc^="未选中"]',
+          matches: '[vid="f6t"][desc^="未点赞"]',
           actionDelay: 500,
           snapshotUrls: [],
-          position: {
-            left: 'width*0.1989',
-            top: 'width*0.293',
-          }
+
         },
       ],
     },
