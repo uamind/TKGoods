@@ -16,8 +16,8 @@ export default defineGkdApp({
           actionDelay: 500,
           snapshotUrls: [],
           position: {
-            x: 1001,
-            y: 1366
+            left: 'width*0.1989',
+            top: 'width*0.293',
           }
         },
       ],
