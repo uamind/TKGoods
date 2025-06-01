@@ -13,7 +13,7 @@ export default defineGkdApp({
           fastQuery: true,
           excludeActivityIds: '.main.MainActivity',
           matches: '[id="com.ss.android.ugc.aweme:id/f59"]',
- 
+
           // matches: '[id="com.ss.android.ugc.aweme:id/f6t"][desc^="未点赞"]',
           // matches: '[vid="wqh"] > [vid="f6e"] > [vid="f6t"][desc^="未点赞"] > [vid="f58"] > [vid="f5t"] > @ImageView',
           actionDelay: 800,
