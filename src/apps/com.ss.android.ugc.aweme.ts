@@ -12,8 +12,7 @@ export default defineGkdApp({
         {
           fastQuery: true,
           excludeActivityIds: '.main.MainActivity',
-          matches:
-            '[vid="wqh"] > [vid="f6e"] > [vid="f6t"][desc^="未点赞"] > [vid="f58"] > [vid="f5t"] > @ImageView',
+          matches: '[vid="wqh"] > [vid="f6e"] > [vid="f6t"][desc^="未点赞"] > [vid="f58"] > [vid="f5t"] > @ImageView',
           // matches: '[vid="viewpager"][desc="视频"] > [vid="5f0"] > [vid="vqo"] > [vid="jj"] > [vid="ilx"] > [vid="wqh"] > [vid="f6e"] > [vid="f6t"][desc^="未点赞"]',
           actionDelay: 300,
           snapshotUrls: [], // 这里可以添加相关截图的URL
