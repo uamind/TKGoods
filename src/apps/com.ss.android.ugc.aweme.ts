@@ -28,7 +28,7 @@ export default defineGkdApp({
           fastQuery: true,
           activityIds: '.main.MainActivity',
           matches:
-            '[vid="viewpager"][desc="视频"] > [vid="5f0"] > [vid="vqo"] > [vid="jj"] > [vid="ilx"] > [vid="wqh"] > [vid="d3d"] > [vid="d4a"][desc^="未选中"]',
+            '[vid="wqh"] > [vid="d3d"] > [vid="d4a"][desc^="未选中"]',
           actionDelay: 500,
           snapshotUrls: [],
         },
